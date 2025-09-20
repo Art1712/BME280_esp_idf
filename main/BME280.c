@@ -7,6 +7,7 @@
 
 #include "HEADER.h"
 
+
 const uint8_t ID		= 0xD0;
 /*
 The ID register contains the chip identification number chip_id[7:0], which is 0x60. This number can
