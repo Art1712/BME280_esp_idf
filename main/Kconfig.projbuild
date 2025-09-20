@@ -1,0 +1,22 @@
+menu "Example Configuration"
+
+    orsource "$IDF_PATH/examples/common_components/env_caps/$IDF_TARGET/Kconfig.env_caps"
+
+    
+
+  	config I2C_MASTER_SDA
+		int "SDA GPIO number"
+		range 0 48
+		default 21
+        help
+            GPIO number SDA.
+            
+	config I2C_MASTER_SCL
+		int "SCL GPIO number"
+		range 0 48
+		default 22
+        help
+            GPIO number SCL.
+            
+
+endmenu
